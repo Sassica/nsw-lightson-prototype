@@ -1,0 +1,22 @@
+{
+  "name": "nsw-lightson-prototype",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sassica/nsw-lightson-prototype.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sassica/nsw-lightson-prototype/issues"
+  },
+  "homepage": "https://github.com/Sassica/nsw-lightson-prototype#readme",
+  "dependencies": {
+    "nsw-design-system": "^2.3.0"
+  }
+}

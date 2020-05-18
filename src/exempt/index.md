@@ -7,9 +7,9 @@
 </p>
 
  <p>
-	     <a href="https://sassica.github.io/nsw-lightson-prototype/case2">
-         <button class="au-btn">Adjudicate another case</button>
-            </a>	    
-			    </p>
+	
+	<a href="https://sassica.github.io/nsw-lightson-prototype/case2" class="nsw-button nsw-button--primary"> Adjudicate another </a>
+	    
+ </p>
 
 </div>

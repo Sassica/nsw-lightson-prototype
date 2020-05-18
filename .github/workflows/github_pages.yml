@@ -13,7 +13,7 @@ jobs:
         run: |
           mkdir -p build/
           yarn install
-          echo "Hello world 2!" > build/index.html
+          npx @11ty/eleventy --input=src/ --output=build/
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@releases/v3

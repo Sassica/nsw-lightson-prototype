@@ -7,15 +7,18 @@ const BrowserSyncPlugin = require('browser-sync-webpack-plugin')
 
 module.exports = merge(common, {
   mode: 'development',
+  devServer: {
+    contentBase: './build'
+  },
   plugins: [
     new BrowserSyncPlugin({
       host: 'localhost',
       port: 3000,
-      server: { baseDir: ['build'] },
       ghostMode: false,
       notify: false,
       watch: true,
-      open: false
+      open: false,
+      proxy: 'http://localhost:8080/'
     })
   ]
 })

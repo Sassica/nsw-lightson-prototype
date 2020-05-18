@@ -12,7 +12,8 @@ module.exports = {
   mode: 'production',
   output: {
     path: path.resolve(__dirname, 'build/assets'),
-    filename: 'js/dist.js'
+    filename: 'js/dist.js',
+    publicPath: '/assets/'
   },
   plugins: [
     new CleanWebpackPlugin(),

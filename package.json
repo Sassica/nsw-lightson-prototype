@@ -8,7 +8,7 @@
     "clean": "rm -rf build/",
     "start": "npm-run-all clean --parallel dev:*",
     "dev:eleventy": "eleventy --watch --quiet",
-    "dev:webpack": "webpack --mode development --watch --config webpack.dev.js"
+    "dev:webpack": "webpack-dev-server --mode development --config webpack.dev.js"
   },
   "repository": {
     "type": "git",
@@ -31,6 +31,7 @@
     "nsw-design-system": "^2.3.0",
     "typeface-montserrat": "^0.0.75",
     "webpack": "^4.43.0",
+    "webpack-dev-server": "^3.11.0",
     "webpack-merge": "^4.2.2"
   },
   "devDependencies": {

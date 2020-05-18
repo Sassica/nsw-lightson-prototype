@@ -13,7 +13,7 @@ jobs:
         run: |
           mkdir -p build/
           yarn install
-          npx @11ty/eleventy --input=src/ --output=build/
+          npm run build
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@releases/v3

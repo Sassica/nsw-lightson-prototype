@@ -8,6 +8,7 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin')
 
 module.exports = {
   entry: './src/_assets/js/index.js',
+  mode: 'production',
   output: {
     path: path.resolve(__dirname, 'build/assets'),
     filename: 'js/dist.js'
@@ -37,10 +38,5 @@ module.exports = {
 				]
 			}
 		]
-	},
-	optimization: {
-	  splitChunks: {
-	    chunks: 'all'
-	  }
 	}
 }

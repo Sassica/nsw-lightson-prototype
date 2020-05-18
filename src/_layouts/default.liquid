@@ -23,9 +23,9 @@
 </div>
 </header>
 
-<!-- content start -->
-{{ content | safe }}
-<!-- content end -->
+<div class="nsw-container">
+	{{ content | safe }}
+</div>
 
 <footer class="nsw-footer">
 	<div class="nsw-footer__lower">
@@ -55,6 +55,5 @@
 </footer>
 
 <script src="{{ './assets/js/dist.js' | url }}"></script>
-<script>window.NSW.initSite()</script>
 </body>
 </html>

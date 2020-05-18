@@ -13,7 +13,8 @@ jobs:
         run: |
           mkdir -p build/
           yarn install
-          npm run build
+          npx @11ty/eleventy --pathPrefix nsw-lightson-prototype
+          webpack
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@releases/v3

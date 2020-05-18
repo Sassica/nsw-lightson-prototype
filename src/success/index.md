@@ -2,5 +2,12 @@
 layout: default.liquid
 ---
 
-<h1>Fine sent</h1>
+
+<body>
+<p>Fine sent</p>
+
+
+<img src="tick.png" alt="Green tick" width="128" height="128">
+
+</body>
 

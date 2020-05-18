@@ -1,7 +1,3 @@
----
-layout: default.liquid
----
-
 # Hello world!
 
 ![](./assets/images/tick.png)

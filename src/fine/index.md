@@ -1,7 +1,3 @@
----
-layout: default.liquid
----
-
 <div style="text-align: center;">
 
 <h1>Fine sent</h1>

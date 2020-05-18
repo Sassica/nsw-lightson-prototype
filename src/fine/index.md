@@ -1,10 +1,7 @@
 <div style="text-align: center;">
 
-<h1>Fine sent</h1>
+# Fine sent
 
-
-<img src="sent.png" alt="Email sending" width="128" height="128">
-
-
+<img src="{{ '/assets/images/sent.png' | url }}" alt="Sent email" class="icon">
 
 </div>

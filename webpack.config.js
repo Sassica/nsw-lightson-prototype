@@ -14,29 +14,30 @@ module.exports = {
     filename: 'js/dist.js'
   },
   plugins: [
-	  new CleanWebpackPlugin(),
-	  new JsConfigWebpackPlugin(),
-	  new ScssConfigWebpackPlugin({
-	  	filename: 'css/dist.css'
-	  }),
-	  new FontConfigWebpackPlugin({
-	  	name: 'fonts/[name].css'
-	  })
-	],
-	module: {
-		rules: [
-			{
-				test: /\.(eot|ttf)$/,
-				use: [
-					{
-						loader: 'file-loader',
-						options: {
-							name: '[name].[ext]',
-							outputPath: 'fonts/'
-						}
-					}
-				]
-			}
-		]
-	}
+    new CleanWebpackPlugin(),
+    new JsConfigWebpackPlugin(),
+    new ScssConfigWebpackPlugin({
+      filename: 'css/dist.css'
+    }),
+    new ImageConfigWebpackPlugin(),
+    new FontConfigWebpackPlugin({
+      name: 'fonts/[name].css'
+    })
+  ],
+  module: {
+    rules: [
+      {
+        test: /\.(eot|ttf)$/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[name].[ext]',
+              outputPath: 'fonts/'
+            }
+          }
+        ]
+      }
+    ]
+  }
 }

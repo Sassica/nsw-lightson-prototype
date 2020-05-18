@@ -22,7 +22,7 @@ module.exports = {
     }),
     new ImageConfigWebpackPlugin(),
     new FontConfigWebpackPlugin({
-      name: 'fonts/[name].css'
+      name: 'fonts/[name].[ext]'
     }),
     new CopyPlugin({
       patterns: [

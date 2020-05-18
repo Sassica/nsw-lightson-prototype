@@ -4501,6 +4501,11 @@ liquidjs@^6.4.3:
   resolved "https://registry.yarnpkg.com/liquidjs/-/liquidjs-6.4.3.tgz#c7caf7a3f6c87dc6a22a5a351328cf8f7298c243"
   integrity sha512-m1xSB10Ncu22NR3X0xdaqu/GvP1xadDCFYGqGgd6me8DAWjyA68BKE5DHJmSxw1CGsWPsX+Hj2v/87J2w/LvMQ==
 
+liquidjs@^9.12.0:
+  version "9.12.0"
+  resolved "https://registry.yarnpkg.com/liquidjs/-/liquidjs-9.12.0.tgz#e938791fb326b06e1971ef5f80a0a38c88897e2a"
+  integrity sha512-Z1fERRy5TG76kNQfDuCl9+YmK6RMBsGhi3fl/57rBb5BbuVAS0YA7R3kh0/V0TwezpeywUf5xasR+Np86nD2TA==
+
 load-json-file@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/load-json-file/-/load-json-file-1.1.0.tgz#956905708d58b4bab4c2261b04f59f31c99374c0"

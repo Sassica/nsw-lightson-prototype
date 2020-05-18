@@ -2,12 +2,10 @@
 
 # Fine sent
 
+
 <img src="{{ '/assets/images/sent.png' | url }}" alt="Sent email" class="icon">
 
-<p>
-	
-	<a href="https://sassica.github.io/nsw-lightson-prototype" class="nsw-button nsw-button--primary"> Adjudicate another </a>
-	    
- </p>
+
+<a href="{{ '/case2' | url }}" class="nsw-button nsw-button--primary">Adjudicate another</a>
 
 </div>

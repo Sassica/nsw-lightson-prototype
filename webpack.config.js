@@ -5,6 +5,7 @@ const ScssConfigWebpackPlugin = require('scss-config-webpack-plugin')
 const FontConfigWebpackPlugin = require('font-config-webpack-plugin')
 const ImageConfigWebpackPlugin = require('image-config-webpack-plugin')
 const { CleanWebpackPlugin } = require('clean-webpack-plugin')
+const CopyPlugin = require('copy-webpack-plugin')
 
 module.exports = {
   entry: './src/_assets/js/index.js',
@@ -22,6 +23,11 @@ module.exports = {
     new ImageConfigWebpackPlugin(),
     new FontConfigWebpackPlugin({
       name: 'fonts/[name].css'
+    }),
+    new CopyPlugin({
+      patterns: [
+        { from: './src/_assets/images/', to: 'images' }
+      ]
     })
   ],
   module: {

@@ -1,4 +1,3 @@
+# Vehicle exempt
 
-<h1> Vehicle exempt </h1>
-
-![](./assets/images/tick.png)
+<img src="/assets/images/tick.png" alt="Tick" class="tick">

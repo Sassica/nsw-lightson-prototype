@@ -2,5 +2,5 @@
 layout: default.liquid
 ---
 
-<h1>Fine successfully sent</h1>
+<h1>Fine sent</h1>
 

@@ -5,7 +5,7 @@
       <img src="{{ '/assets/images/Ambulence-lights.png' | url }}" alt="Ambulance driving" class="vehicle">
   </div>
   <div class="nsw-col--third">
-    <img src="{{ '/assets/images/Exempt vehicle.png' | url }}" alt="Image recognition results" class="vehicle">
+    <img src="{{ '/assets/images/Exempt vehicle.png' | url }}" alt="Image recognition results" class="icon">
   </div>
   
 <a href="{{ '/case2' | url }}" class="nsw-button nsw-button--primary">Apply exemption</a>

@@ -8,5 +8,9 @@
     <img src="{{ '/assets/images/Exempt vehicle.png' | url }}" alt="Image recognition results" class="vehicle">
   </div>
   
+<a href="{{ '/case2' | url }}" class="nsw-button nsw-button--primary">Apply exemption</a>
+
+<a href="{{ '/404' | url }}" class="nsw-button nsw-button--dark60">Send fine</a>
+  
   
 </div>

@@ -1,0 +1,169 @@
+.case {
+
+	header {
+		@extend .nsw-grid;
+		padding-bottom: .5rem;
+	}
+
+	.infringement-image {
+		padding-right: 2rem;
+
+		img {
+			background: #333;
+			padding: 1.5rem;
+			max-width: 100%;
+		}
+	}
+
+	.panel {
+		background: #fafafa;
+		border: 1px solid #bbb;
+		margin-bottom: 1rem;
+		margin-right: 5rem;
+
+		h3 {
+			margin: 0;
+      padding: .75rem;
+      font-size: 1rem;
+      background: #002664;
+      color: #fff;
+		}
+
+    .content {
+      padding: 1rem;
+      overflow: hidden;
+      height: auto;
+    }
+
+    &.closed {
+      .content {
+        height: 0;
+        padding: 0;
+      }
+
+      h3 {
+        background: #eee;
+        color: #000;
+      }
+    }
+
+    &.completed {
+      h3 {
+        i {
+          @extend .fas;
+          @extend .fa-check;
+          padding-right: .5rem;
+          color: #208C12;
+        }
+      }
+    }
+
+		.image-excerpt {
+			margin-top: .75rem;
+			padding: .5rem;
+			background: #ccc;
+			text-align: center;
+			line-height: 0;
+
+			img {
+				max-height: 3rem;
+			}
+		}
+
+		dl {
+			overflow: auto;
+			position: relative;
+
+			dt, dd {
+				display: inline-block;
+				margin-bottom: .25rem;
+				float: left;
+			}
+
+			dt {
+				width: 20%;
+				clear: left;
+				padding-top: 1rem;
+			}
+
+			dd {
+				background: #fff;
+				border-radius: .25rem;
+				box-shadow: rgba(0,0,0,0.2) 0px 2px 2px;
+				cursor: default;
+				padding: .6rem .85rem;
+				border: 1px solid #777;
+				font-weight: bold;
+				letter-spacing: .25rem;
+				font-family: monospace;
+				font-size: 1.5rem;
+				display: inline-block;
+			}
+		}
+
+		.verification-status {
+			padding-top: .5rem;
+			overflow: auto;
+
+			span {
+				display: block;
+			}
+
+			.status {
+				font-weight: bold;
+				padding-bottom: .25rem;
+			}
+
+			.lookup-at {
+				font-size: .75rem;
+			}
+
+			i {
+				@extend .fas;
+				float: left;
+				font-size: 2.5rem;
+				padding-right: .75rem;
+				padding-bottom: .25rem;
+			}
+
+			&.verified i {
+				@extend .fa-check-circle;
+				color: #28BF14;
+			}
+		}
+
+    .adjudicator {
+      margin: 0;
+
+      i {
+        @extend .fas;
+        @extend .fa-user;
+        font-size: 2.5rem;
+        padding-right: .75rem;
+        float: left;
+      }
+
+      span {
+        display: block;
+        font-size: .75rem;
+      }
+
+      .name {
+        font-weight: bold;
+        font-size: 1rem;
+        padding-top: .25rem;
+      }
+    }
+
+		.actions {
+			text-align: center;
+			margin-bottom: 0;
+
+			.nsw-button {
+				margin-top: .5rem;
+				font-size: .9rem;
+			}
+		}
+	}
+
+}

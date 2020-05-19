@@ -1,5 +1,11 @@
 @import 'typeface-montserrat';
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import '~@fortawesome/fontawesome-free/scss/regular';
+
 @import 'nsw-design-system/src/main';
+
+@import 'case';
 
 body {
 	font-family: 'Montserrat', sans-serif;

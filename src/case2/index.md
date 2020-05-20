@@ -84,7 +84,7 @@
           </p>
 
           <p class="actions">
-            <a href="{{ '/exempt' | url }}" class="nsw-button nsw-button--primary">Confirm infringement</a>
+            <a href="{{ '/fine' | url }}" class="nsw-button nsw-button--primary">Confirm infringement</a>
           </p>
         </div>
       </div>

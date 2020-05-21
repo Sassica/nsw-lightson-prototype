@@ -13,25 +13,21 @@
   				<div class="image-excerpt">
   					<img src="{{ '/assets/images/car_plate.png' | url }}" alt="Number plate">
   				</div>
-
   				<dl class="details">
   					<dt>Plate</dt>
   					<dd class="plate">
   						<span>AQO 19U</span>
   					</dd>
-
   					<dt>Jurisdiction</dt>
   					<dd class="jurisdiction">
   						<span>NSW</span>
   					</dd>
   				</dl>
-
   				<p class="verification-status verified">
   					<i></i>
   					<span class="status">Verified emergency vehicle</span>
   					<span class="lookup-at">DRIVES check automatically completed at 4.01pm, 19 May 2020</span>
   				</p>
-
   				<p class="actions">
   					<button class="nsw-button nsw-button--outline">Make corrections</button>
   				</p>
@@ -40,20 +36,16 @@
 			<div class="panel">
 				<h3><i></i>Confirm infringement</h3>
         <div class="content">
-
   				<dl class="details">
-
   					<dt>Speed</dt>
   					<dd class="speed">
   						<span>71kph</span>
   					</dd>
-
   					<dt>Speed limit</dt>
   					<dd class="speed-limit">
   						<span>60kph</span>
   					</dd>
   				</dl>
-
   				<p class="actions">
   					<button class="nsw-button nsw-button--outline">Make corrections</button>
   				</p>

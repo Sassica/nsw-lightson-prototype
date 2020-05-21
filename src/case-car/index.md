@@ -2,7 +2,6 @@
 	<header>
 		<h1>Review infringement</h1>
 	</header>
-
 	<div class="nsw-grid">
 		<div class="nsw-col--half infringement-image">
 			<img src="{{ '/assets/images/Acar_individual.jpg' | url }}" alt="Car driving">
@@ -10,7 +9,6 @@
 		<div class="nsw-col--half">
 			<div class="panel">
 				<h3><i></i>Confirm plate details</h3>
-
         <div class="content">
   				<div class="image-excerpt">
   					<img src="{{ '/assets/images/car_plate.png' | url }}" alt="Number plate">
@@ -42,7 +40,7 @@
 			<div class="panel">
 				<h3><i></i>Confirm infringement</h3>
         <div class="content">
-        
+
   				<dl class="details">
 
   					<dt>Speed</dt>

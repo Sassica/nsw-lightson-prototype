@@ -1,6 +1,6 @@
 <div style="text-align: center;">
 
-# Fine sent
+<h1>Fine sent</h1>
 
 
 <img src="{{ '/assets/images/sent.png' | url }}" alt="Sent email" class="icon">

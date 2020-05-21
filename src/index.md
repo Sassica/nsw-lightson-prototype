@@ -1,9 +1,9 @@
 # Adjudication prototypes
 
 
-Individuals
+Cars
 
-- [Case 1 (verified vehicle, car) - single form]({{ '/case-car' | url }})
+- [Case car (verified vehicle, car) - single form]({{ '/case-car' | url }})
 
 
 

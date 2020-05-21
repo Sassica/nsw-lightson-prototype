@@ -4,7 +4,7 @@
 	</header>
 	<div class="nsw-grid">
 		<div class="nsw-col--half infringement-image">
-			<img src="{{ '/assets/images/car_individual.jpg' | url }}" alt="Car driving">
+			<img src="{{ '/assets/images/car_individual_box.jpg' | url }}" alt="Car driving">
 		</div>
 		<div class="nsw-col--half">
 			<div class="panel">

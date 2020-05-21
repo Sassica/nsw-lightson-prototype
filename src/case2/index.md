@@ -5,7 +5,7 @@
 
   <div class="nsw-grid">
     <div class="nsw-col--half infringement-image">
-      <img src="{{ '/assets/images/Ambulence-nolights.png' | url }}" alt="Ambulance driving">
+      <img src="{{ '/assets/images/Ambulance-nolights-box.png' | url }}" alt="Ambulance driving">
     </div>
     <div class="nsw-col--half">
       <div class="panel">

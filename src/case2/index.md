@@ -27,7 +27,7 @@
           <p class="verification-status verified">
             <i></i>
             <span class="status">Verified emergency vehicle</span>
-            <span class="lookup-at">DRIVES check automatically completed at 4.04pm, 19 May 2020</span>
+            <span class="lookup-at">DRIVES check automatically completed at 11.12am, 25 May 2020</span>
           </p>
           <p class="actions">
             <button class="nsw-button nsw-button--outline">Make corrections</button>

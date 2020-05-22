@@ -39,7 +39,7 @@
   				<dl class="details">
   					<dt>Speed</dt>
   					<dd class="speed">
-  						<span>71kph</span>
+  						<span>68kph</span>
   					</dd>
   					<dt>Speed limit</dt>
   					<dd class="speed-limit">

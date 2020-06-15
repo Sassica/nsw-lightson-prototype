@@ -7,8 +7,10 @@
             <span class="nsw-form-legend-text">What type of game are you running?</span>
             </legend>
             <div class="nsw-form-radio">
-               <input class="nsw-form-radio__input" type="radio" name="{inputName}" id="{uniquieID}">
-               <label class="nsw-form-radio__label" for="{uniquieID}">Housie</label>         
+               <input class="nsw-form-radio__input" type="radio" name="{gametype}" id="{gametype1}">
+               <label class="nsw-form-radio__label" for="{gametype1}">Housie</label>
+               <input class="nsw-form-radio__input" type="radio" name="{gametype}" id="{gametype2}">
+               <label class="nsw-form-radio__label" for="{gametype2}">Option 2</label>         
             </div>
            </fieldset>
         </div>
@@ -20,8 +22,10 @@
             <span class="nsw-form-legend-text">Type of Housie?</span>
             </legend>
             <div class="nsw-form-radio">
-               <input class="nsw-form-radio__input" type="radio" name="{radio.housie1}" id="{radio.housie1}">
+               <input class="nsw-form-radio__input" type="radio" name="{housietype}" id="{housietype1">
                <label class="nsw-form-radio__label" for="{uniquieID}">Charity housie</label>  
+               <input class="nsw-form-radio__input" type="radio" name="{housietype}" id="{housietype2">
+               <label class="nsw-form-radio__label" for="{uniquieID}">Option 2</label>
             </div>
            </fieldset>
         </div>

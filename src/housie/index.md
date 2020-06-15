@@ -22,10 +22,12 @@
             <span class="nsw-form-legend-text">Type of Housie?</span>
             </legend>
             <div class="nsw-form-radio">
-               <input class="nsw-form-radio__input" type="radio" name="{housietype}" id="{housietype1}">
-               <label class="nsw-form-radio__label" for="{housietype1}">Charity housie</label>  
-               <input class="nsw-form-radio__input" type="radio" name="{housietype}" id="{housietype2}">
-               <label class="nsw-form-radio__label" for="{housietype2}">Option 2</label>
+               <input class="nsw-form-radio__input" type="radio" name="{housietype}" id="{housie1}">
+               <label class="nsw-form-radio__label" for="{housie1}">Charity housie</label>  
+               <input class="nsw-form-radio__input" type="radio" name="{housietype}" id="{housie2}">
+               <label class="nsw-form-radio__label" for="{housie2}">Social housie</label>
+               <input class="nsw-form-radio__input" type="radio" name="{housietype}" id="{housie3}">
+               <label class="nsw-form-radio__label" for="{housie3}">Club bingo</label>
             </div>
            </fieldset>
         </div>
@@ -104,7 +106,7 @@
             <span class="nsw-form-legend-text">What will be the maximum number of tickets sold to a single participant?</span>
             </legend>
             <div class="nsw-form-radio">
-               <input class="nsw-form-radio__input" type="radio" name="{maxtickets}" id="{maxtickets1}">
+               <input class="nsw-form-radio__input" type="radio" name="{maxtickets}" id="{maxtickets1">
                <label class="nsw-form-radio__label" for="{maxtickets1}">40</label>      
             </div>
            </fieldset>

@@ -22,9 +22,9 @@
             <span class="nsw-form-legend-text">Type of Housie?</span>
             </legend>
             <div class="nsw-form-radio">
-               <input class="nsw-form-radio__input" type="radio" name="{housietype}" id="{housietype1">
+               <input class="nsw-form-radio__input" type="radio" name="{housietype}" id="{housietype1}">
                <label class="nsw-form-radio__label" for="{housietype1}">Charity housie</label>  
-               <input class="nsw-form-radio__input" type="radio" name="{housietype}" id="{housietype2">
+               <input class="nsw-form-radio__input" type="radio" name="{housietype}" id="{housietype2}">
                <label class="nsw-form-radio__label" for="{housietype2}">Option 2</label>
             </div>
            </fieldset>

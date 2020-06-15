@@ -60,3 +60,66 @@
            </fieldset>
         </div>
     </div>
+<div class="nsw-forms">
+        <div class="nsw-form-group">
+            <fieldset class="nsw-form-fieldset">
+            <legend>
+            <span class="nsw-form-legend-text">What will be the proceeds to the benefitting organisation?</span>
+            </legend>
+            <div class="nsw-form-radio">
+               <input class="nsw-form-radio__input" type="radio" name="{radio1}" id="{radio1}">
+               <label class="nsw-form-radio__label" for="{uniquieID}">$3900</label>      
+               <input class="nsw-form-radio__input" type="radio" name="{radio2}" id="{radio2}">
+              <label class="nsw-form-radio__label" for="{uniquieID}">Example 2</label>       
+            </div>
+           </fieldset>
+        </div>
+    </div>
+<div class="nsw-forms">
+        <div class="nsw-form-group">
+            <fieldset class="nsw-form-fieldset">
+            <legend>
+            <span class="nsw-form-legend-text">What will be the total expenses for conducting the housie?</span>
+            </legend>
+            <div class="nsw-form-radio">
+               <input class="nsw-form-radio__input" type="radio" name="{radio1}" id="{radio1}">
+               <label class="nsw-form-radio__label" for="{uniquieID}">$100</label>      
+               <input class="nsw-form-radio__input" type="radio" name="{radio2}" id="{radio2}">
+              <label class="nsw-form-radio__label" for="{uniquieID}">Example 2</label>       
+            </div>
+           </fieldset>
+        </div>
+    </div>
+    <div class="nsw-forms">
+        <div class="nsw-form-group">
+            <fieldset class="nsw-form-fieldset">
+            <legend>
+            <span class="nsw-form-legend-text">What will be the prize value from a single game?</span>
+            </legend>
+            <div class="nsw-form-radio">
+               <input class="nsw-form-radio__input" type="radio" name="{radio1}" id="{radio1}">
+               <label class="nsw-form-radio__label" for="{uniquieID}">$2000</label>      
+               <input class="nsw-form-radio__input" type="radio" name="{radio2}" id="{radio2}">
+              <label class="nsw-form-radio__label" for="{uniquieID}">Example 2</label>       
+            </div>
+           </fieldset>
+        </div>
+    </div>
+    <div class="nsw-forms">
+        <div class="nsw-form-group">
+            <fieldset class="nsw-form-fieldset">
+            <legend>
+            <span class="nsw-form-legend-text">What will be the maximum number of tickets sold to a single participant?</span>
+            </legend>
+            <div class="nsw-form-radio">
+               <input class="nsw-form-radio__input" type="radio" name="{radio1}" id="{radio1}">
+               <label class="nsw-form-radio__label" for="{uniquieID}">40</label>      
+               <input class="nsw-form-radio__input" type="radio" name="{radio2}" id="{radio2}">
+              <label class="nsw-form-radio__label" for="{uniquieID}">Example 2</label>       
+            </div>
+           </fieldset>
+        </div>
+    </div>
+
+
+<a href="{{ '/housie-submit' | url }}" class="nsw-button nsw-button--primary">Submit</a>

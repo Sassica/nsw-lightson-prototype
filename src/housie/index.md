@@ -7,10 +7,22 @@
             <span class="nsw-form-legend-text">What type of game are you running?</span>
             </legend>
             <div class="nsw-form-radio">
-               <input class="nsw-form-radio__input" type="radio" name="{gametype}" id="{gametype1}">
+               <input class="nsw-form-radio__input" type="radio" name="{gametype}" id="{gametype1}" value="True">
                <label class="nsw-form-radio__label" for="{gametype1}">Housie</label>
                <input class="nsw-form-radio__input" type="radio" name="{gametype}" id="{gametype2}">
-               <label class="nsw-form-radio__label" for="{gametype2}">Option 2</label>         
+               <label class="nsw-form-radio__label" for="{gametype2}">Draw Lottery</label>         
+               <input class="nsw-form-radio__input" type="radio" name="{gametype}" id="{gametype3}">
+               <label class="nsw-form-radio__label" for="{gametype3}">No-draw Lottery</label>         
+               <input class="nsw-form-radio__input" type="radio" name="{gametype}" id="{gametype4}">
+               <label class="nsw-form-radio__label" for="{gametype4}">Mini Numbers Lottery</label>         
+               <input class="nsw-form-radio__input" type="radio" name="{gametype}" id="{gametype5}">
+               <label class="nsw-form-radio__label" for="{gametype5}">Progressive Lottery</label>         
+               <input class="nsw-form-radio__input" type="radio" name="{gametype}" id="{gametype6}">
+               <label class="nsw-form-radio__label" for="{gametype6}">Free Lottery</label>         
+               <input class="nsw-form-radio__input" type="radio" name="{gametype}" id="{gametype7}">
+               <label class="nsw-form-radio__label" for="{gametype7}">Promotional Raffle</label>         
+               <input class="nsw-form-radio__input" type="radio" name="{gametype}" id="{gametype8}">
+               <label class="nsw-form-radio__label" for="{gametype8}">Trade Promotion</label>         
             </div>
            </fieldset>
         </div>
@@ -27,7 +39,7 @@
                <input class="nsw-form-radio__input" type="radio" name="{housietype}" id="{housie2}">
                <label class="nsw-form-radio__label" for="{housie2}">Social housie</label>
                <input class="nsw-form-radio__input" type="radio" name="{housietype}" id="{housie3}">
-               <label class="nsw-form-radio__label" for="{housie3}">Club bingo</label>
+               <label class="nsw-form-radio__label" for="{housie3}">Club Bingo</label>
             </div>
            </fieldset>
         </div>
@@ -40,9 +52,11 @@
             </legend>
             <div class="nsw-form-radio">
                <input class="nsw-form-radio__input" type="radio" name="{conducted}" id="{conducted1}">
-               <label class="nsw-form-radio__label" for="{conducted1}">Charity/non-profit organisation<label>
+               <label class="nsw-form-radio__label" for="{conducted1}">Charity</label>
                <input class="nsw-form-radio__input" type="radio" name="{conducted}" id="{conducted2}">
-               <label class="nsw-form-radio__label" for="{conducted2}">Option 2<label>      
+               <label class="nsw-form-radio__label" for="{conducted2}">Non-Profit</label>
+               <input class="nsw-form-radio__input" type="radio" name="{conducted}" id="{conducted3}">
+               <label class="nsw-form-radio__label" for="{conducted3}">Business</label>
             </div>
            </fieldset>
         </div>
@@ -53,9 +67,8 @@
             <legend>
             <span class="nsw-form-legend-text">What will be the gross proceeds from the charity housie?</span>
             </legend>
-            <div class="nsw-form-radio">
-               <input class="nsw-form-radio__input" type="radio" name="{proceeds}" id="{proceeds1}">
-               <label class="nsw-form-radio__label" for="{proceeds1}">$4000</label>      
+            <div class="nsw-form-text">
+               <input class="nsw-form-text__input" type="text" name="{proceeds}" id="{proceeds1}" value="$4000">
             </div>
            </fieldset>
         </div>
@@ -66,9 +79,8 @@
             <legend>
             <span class="nsw-form-legend-text">What will be the proceeds to the benefitting organisation?</span>
             </legend>
-            <div class="nsw-form-radio">
-               <input class="nsw-form-radio__input" type="radio" name="{benefit}" id="{benefit1}">
-               <label class="nsw-form-radio__label" for="{benefit1}">$3900</label>      
+            <div class="nsw-form-text">
+               <input class="nsw-form-text__input" type="text" name="{benefit}" id="{benefit1}" value="$3900">
             </div>
            </fieldset>
         </div>
@@ -79,9 +91,8 @@
             <legend>
             <span class="nsw-form-legend-text">What will be the total expenses for conducting the housie?</span>
             </legend>
-            <div class="nsw-form-radio">
-               <input class="nsw-form-radio__input" type="radio" name="{expenses}" id="{expenses1}">
-               <label class="nsw-form-radio__label" for="{expenses1}">$100</label>             
+            <div class="nsw-form-text">
+               <input class="nsw-form-text__input" type="text" name="{expenses}" id="{expenses1}" value="$100">
             </div>
            </fieldset>
         </div>
@@ -92,9 +103,8 @@
             <legend>
             <span class="nsw-form-legend-text">What will be the prize value from a single game?</span>
             </legend>
-            <div class="nsw-form-radio">
-               <input class="nsw-form-radio__input" type="radio" name="{prize}" id="{prize1}">
-               <label class="nsw-form-radio__label" for="{prize1}">$2000</label>      
+            <div class="nsw-form-text">
+               <input class="nsw-form-text__input" type="text" name="{prize}" id="{prize1}" value="$2000">
             </div>
            </fieldset>
         </div>
@@ -105,9 +115,8 @@
             <legend>
             <span class="nsw-form-legend-text">What will be the maximum number of tickets sold to a single participant?</span>
             </legend>
-            <div class="nsw-form-radio">
-               <input class="nsw-form-radio__input" type="radio" name="{maxtickets}" id="{maxtickets1">
-               <label class="nsw-form-radio__label" for="{maxtickets1}">40</label>      
+            <div class="nsw-form-text">
+               <input class="nsw-form-text__input" type="text" name="{maxtickets}" id="{maxtickets1"} value="40">
             </div>
            </fieldset>
         </div>

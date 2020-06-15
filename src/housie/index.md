@@ -23,9 +23,9 @@
             </legend>
             <div class="nsw-form-radio">
                <input class="nsw-form-radio__input" type="radio" name="{housietype}" id="{housietype1">
-               <label class="nsw-form-radio__label" for="{uniquieID}">Charity housie</label>  
+               <label class="nsw-form-radio__label" for="{housietype1}">Charity housie</label>  
                <input class="nsw-form-radio__input" type="radio" name="{housietype}" id="{housietype2">
-               <label class="nsw-form-radio__label" for="{uniquieID}">Option 2</label>
+               <label class="nsw-form-radio__label" for="{housietype2}">Option 2</label>
             </div>
            </fieldset>
         </div>
@@ -37,8 +37,10 @@
             <span class="nsw-form-legend-text">Game is conducted by:</span>
             </legend>
             <div class="nsw-form-radio">
-               <input class="nsw-form-radio__input" type="radio" name="{radio1}" id="{radio1}">
-               <label class="nsw-form-radio__label" for="{uniquieID}">Charity/non-profit organisation</label>      
+               <input class="nsw-form-radio__input" type="radio" name="{conducted}" id="{conducted1}">
+               <label class="nsw-form-radio__label" for="{conducted1}">Charity/non-profit organisation<label>
+                <input class="nsw-form-radio__input" type="radio" name="{conducted}" id="{conducted2}">
+               <label class="nsw-form-radio__label" for="{conducted2}">Option 2<label>      
             </div>
            </fieldset>
         </div>

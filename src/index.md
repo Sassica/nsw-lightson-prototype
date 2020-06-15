@@ -2,7 +2,7 @@
 
 <h2> RAC prototypes </h2>
 
-Gaming prottotype
+Gaming prototype
 
 - [Housie - permitted activity]({{ '/housie' | url }})
 

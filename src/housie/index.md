@@ -8,9 +8,7 @@
             </legend>
             <div class="nsw-form-radio">
                <input class="nsw-form-radio__input" type="radio" name="{inputName}" id="{uniquieID}">
-               <label class="nsw-form-radio__label" for="{uniquieID}">Housie</label>      
-               <input class="nsw-form-radio__input" type="radio" name="{inputName}" id="{uniquieID}">
-              <label class="nsw-form-radio__label" for="{uniquieID}">Art union gaming activity<label>       
+               <label class="nsw-form-radio__label" for="{uniquieID}">Housie</label>         
             </div>
            </fieldset>
         </div>
@@ -23,9 +21,7 @@
             </legend>
             <div class="nsw-form-radio">
                <input class="nsw-form-radio__input" type="radio" name="{radio.housie1}" id="{radio.housie1}">
-               <label class="nsw-form-radio__label" for="{uniquieID}">Charity housie</label>      
-               <input class="nsw-form-radio__input" type="radio" name="{radio.housie1}" id="{radio.housie2}">
-              <label class="nsw-form-radio__label" for="{radio.housie3}">Example 2</label>       
+               <label class="nsw-form-radio__label" for="{uniquieID}">Charity housie</label>  
             </div>
            </fieldset>
         </div>
@@ -39,8 +35,6 @@
             <div class="nsw-form-radio">
                <input class="nsw-form-radio__input" type="radio" name="{radio1}" id="{radio1}">
                <label class="nsw-form-radio__label" for="{uniquieID}">Charity/non-profit organisation</label>      
-               <input class="nsw-form-radio__input" type="radio" name="{radio2}" id="{radio2}">
-              <label class="nsw-form-radio__label" for="{uniquieID}">Example 2</label>       
             </div>
            </fieldset>
         </div>
@@ -54,8 +48,6 @@
             <div class="nsw-form-radio">
                <input class="nsw-form-radio__input" type="radio" name="{radio1}" id="{radio1}">
                <label class="nsw-form-radio__label" for="{uniquieID}">$4000</label>      
-               <input class="nsw-form-radio__input" type="radio" name="{radio2}" id="{radio2}">
-              <label class="nsw-form-radio__label" for="{uniquieID}">Example 2</label>       
             </div>
            </fieldset>
         </div>
@@ -69,8 +61,6 @@
             <div class="nsw-form-radio">
                <input class="nsw-form-radio__input" type="radio" name="{radio1}" id="{radio1}">
                <label class="nsw-form-radio__label" for="{uniquieID}">$3900</label>      
-               <input class="nsw-form-radio__input" type="radio" name="{radio2}" id="{radio2}">
-              <label class="nsw-form-radio__label" for="{uniquieID}">Example 2</label>       
             </div>
            </fieldset>
         </div>
@@ -83,9 +73,7 @@
             </legend>
             <div class="nsw-form-radio">
                <input class="nsw-form-radio__input" type="radio" name="{radio1}" id="{radio1}">
-               <label class="nsw-form-radio__label" for="{uniquieID}">$100</label>      
-               <input class="nsw-form-radio__input" type="radio" name="{radio2}" id="{radio2}">
-              <label class="nsw-form-radio__label" for="{uniquieID}">Example 2</label>       
+               <label class="nsw-form-radio__label" for="{uniquieID}">$100</label>             
             </div>
            </fieldset>
         </div>
@@ -99,8 +87,6 @@
             <div class="nsw-form-radio">
                <input class="nsw-form-radio__input" type="radio" name="{radio1}" id="{radio1}">
                <label class="nsw-form-radio__label" for="{uniquieID}">$2000</label>      
-               <input class="nsw-form-radio__input" type="radio" name="{radio2}" id="{radio2}">
-              <label class="nsw-form-radio__label" for="{uniquieID}">Example 2</label>       
             </div>
            </fieldset>
         </div>
@@ -114,8 +100,6 @@
             <div class="nsw-form-radio">
                <input class="nsw-form-radio__input" type="radio" name="{radio1}" id="{radio1}">
                <label class="nsw-form-radio__label" for="{uniquieID}">40</label>      
-               <input class="nsw-form-radio__input" type="radio" name="{radio2}" id="{radio2}">
-              <label class="nsw-form-radio__label" for="{uniquieID}">Example 2</label>       
             </div>
            </fieldset>
         </div>

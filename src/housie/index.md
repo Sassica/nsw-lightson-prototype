@@ -10,7 +10,7 @@
                <input class="nsw-form-radio__input" type="radio" name="{inputName}" id="{uniquieID}">
                <label class="nsw-form-radio__label" for="{uniquieID}">Housie</label>      
                <input class="nsw-form-radio__input" type="radio" name="{inputName}" id="{uniquieID}">
-              <label class="nsw-form-radio__label" for="{uniquieID}">Art union gaming activity</label>       
+              <label class="nsw-form-radio__label" for="{uniquieID}">Art union gaming activity<label>       
             </div>
            </fieldset>
         </div>
@@ -22,7 +22,7 @@
             <span class="nsw-form-legend-text">Type of Housie?</span>
             </legend>
             <div class="nsw-form-radio">
-               <input class="nsw-form-radio__input" type="radio" name="{inputName}" id="{uniquieID}">
+               <input class="nsw-form-radio__input" type="radio" name="{radio}" id="{uniquieID}">
                <label class="nsw-form-radio__label" for="{uniquieID}">Charity housie</label>      
                <input class="nsw-form-radio__input" type="radio" name="{inputName}" id="{uniquieID}">
               <label class="nsw-form-radio__label" for="{uniquieID}">Example 2</label>       
@@ -34,14 +34,15 @@
         <div class="nsw-form-group">
             <fieldset class="nsw-form-fieldset">
             <legend>
-            <span class="nsw-form-legend-text">Type of Housie?</span>
+            <span class="nsw-form-legend-text">Game is conducted by:</span>
             </legend>
             <div class="nsw-form-radio">
-               <input class="nsw-form-radio__input" type="radio" name="{inputName}" id="{uniquieID}">
-               <label class="nsw-form-radio__label" for="{uniquieID}">Charity housie</label>      
-               <input class="nsw-form-radio__input" type="radio" name="{inputName}" id="{uniquieID}">
+               <input class="nsw-form-radio__input" type="radio" name="{radio1}" id="{radio1}">
+               <label class="nsw-form-radio__label" for="{uniquieID}">Charity/non-profit organisation</label>      
+               <input class="nsw-form-radio__input" type="radio" name="{radio2}" id="{radio2}">
               <label class="nsw-form-radio__label" for="{uniquieID}">Example 2</label>       
             </div>
            </fieldset>
         </div>
     </div>
+

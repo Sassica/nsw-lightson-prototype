@@ -17,7 +17,7 @@
           <dl class="details">
             <dt>Plate</dt>
             <dd class="plate">
-              <span>CPQ 13G</span>
+              <span>COB 85F</span>
             </dd>
             <dt>Jurisdiction</dt>
             <dd class="jurisdiction">

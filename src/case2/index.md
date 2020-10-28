@@ -38,7 +38,7 @@
         <h3><i></i>Confirm emergency</h3>
         <div class="content">
           <div class="image-excerpt">
-            <img src="{{ '/assets/images/lightsoff.png' | url }}" alt="Lights off">
+            <img src="{{ '/assets/images/CobLOSmall.PNG' | url }}" alt="Lights off">
           </div>
           <dl class="details">
             <dt>Lights</dt>

@@ -5,14 +5,14 @@
 
   <div class="nsw-grid">
     <div class="nsw-col--half infringement-image">
-      <img src="{{ '/assets/images/Ambulance-nolights-box.png' | url }}" alt="Ambulance driving">
+      <img src="{{ '/assets/images/CobBlue.PNG' | url }}" alt="Ambulance driving">
     </div>
     <div class="nsw-col--half">
       <div class="panel">
         <h3><i></i>Confirm plate details</h3>
         <div class="content">
           <div class="image-excerpt">
-            <img src="{{ '/assets/images/plates-nolights.png' | url }}" alt="Number plate">
+            <img src="{{ '/assets/images/CobSmall.PNG' | url }}" alt="Number plate">
           </div>
           <dl class="details">
             <dt>Plate</dt>
